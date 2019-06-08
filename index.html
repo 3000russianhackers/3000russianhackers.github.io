@@ -2,8 +2,25 @@
 <html>
 <head>
   <title>This is the title of the webpage!</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      background-color: #0e0e0e;
+      height: 100%;
+    }
+    .logo{
+      background: url("3000LOGO.png") no-repeat;
+      background-clip: border-box;
+      background-position: center;
+      background-size: contain;
+      width: 50%;
+      height: 100%;
+      margin: 0 auto;
+    }
+  </style>
 </head>
-<body>
-<p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+<body style="height: 100%">
+<div class="logo"></div>
 </body>
 </html>
